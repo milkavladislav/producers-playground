@@ -1,0 +1,26 @@
+.main {
+  background-image: url("../../assets/bg.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  padding: 5rem;
+}
+
+.main h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  width: 10ch;
+  line-height: 1.2;
+}
+
+.main p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  width: 40ch;
+}

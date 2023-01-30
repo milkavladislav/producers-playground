@@ -1,0 +1,52 @@
+header {
+  position: fixed;
+  background: var(--color-bg);
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+header a {
+  color: var(--color-grey);
+}
+
+header nav {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-sign-up-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-sign-up-buttons button {
+  cursor: pointer;
+}
+
+.login-button {
+  color: var(--color-grey);
+  background: inherit;
+}
+
+.sign-up-button {
+  color: var(--color-bg);
+  background: var(--color-white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+}

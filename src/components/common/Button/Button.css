@@ -1,0 +1,9 @@
+.custom-button {
+  color: var(--color-white);
+  background: var(--color-blue);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}

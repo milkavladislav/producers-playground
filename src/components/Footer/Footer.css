@@ -30,5 +30,39 @@ footer a {
 
 .footer__bottom {
   display: flex;
-  gap: 2rem
+  gap: 2rem;
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) ======== */
+@media screen and (max-width: 1024px) {
+  .footer__column {
+    width: 30%;
+  }
+  .footer__links {
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ======== */
+@media screen and (max-width: 600px) {
+  footer h5 {
+    font-size: 1rem;
+  }
+
+  footer li {
+    font-size: 0.8rem;
+  }
+
+  .footer__column {
+    width: 45%;
+  }
+
+  .footer__bottom {
+    margin-top: 2rem;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
 }

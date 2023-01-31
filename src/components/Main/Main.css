@@ -24,3 +24,19 @@
   margin-bottom: 1rem;
   width: 40ch;
 }
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) ======== */
+@media screen and (max-width: 1024px) {
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ======== */
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .main p {
+    width: 100%;
+  }
+  
+}

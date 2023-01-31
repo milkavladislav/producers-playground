@@ -15,7 +15,6 @@ header a {
 header nav {
   display: flex;
   flex-basis: 100%;
-  justify-content: space-between;
   align-items: center;
   justify-content: space-between;
 }
@@ -49,4 +48,26 @@ header nav ul {
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5rem;
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) ======== */
+@media screen and (max-width: 1024px) {
+  header nav ul {
+    gap: 1rem;
+  }
+
+  header a {
+    font-size: 0.9rem;
+  }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ======== */
+@media screen and (max-width: 600px) {
+  header nav ul {
+    display: none;
+  }
+
+  header nav {
+    justify-content: flex-end;
+  }
 }
